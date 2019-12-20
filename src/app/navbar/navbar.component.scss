@@ -1,0 +1,50 @@
+.offline {
+  color: red !important;
+  font-weight: bold;
+}
+
+.online {
+  color: green !important;
+  font-weight: bold;
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+
+.navbar {
+  background-color: rgb(23, 31, 36);
+}
+
+h1 {
+  color: rgb(100, 100, 100);
+}
+
+button {
+  margin: 5px;
+}
+
+.navbar-item {
+  color: white;
+}
+
+.run {
+  color: green;
+}
+
+.reload {
+  color: gold;
+}
+
+.stop {
+  color: red;
+}
+
+.navbar-item:hover {
+  background-color: rgba(48, 2, 2, 0.3) !important;
+}
+
+i {
+  margin-left: 5px;
+}

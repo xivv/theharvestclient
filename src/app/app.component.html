@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <input list="box" #box (keyup.enter)="parseCommand()" [(ngModel)]="command" type="text" class="input">
+        <datalist id="box">
+          <option value="build">
+          <option value="train">
+          <option value="research">
+          <option value="create">
+          <option value="act">
+        </datalist>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</section>

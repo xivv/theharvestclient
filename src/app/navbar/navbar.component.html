@@ -1,0 +1,18 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+    </div>
+    <div class="navbar" *ngIf="communicationService.actor">
+      <p class="navbar-item">{{communicationService.actor.container.wood}} <i class="fas fa-tree"></i></p>
+      <p class="navbar-item">{{communicationService.actor.container.stone}} <i class="fas fa-mountain"></i></p>
+      <p class="navbar-item">{{communicationService.actor.container.iron}} <i class="fas fa-atom"></i></p>
+      <p class="navbar-item">{{communicationService.actor.container.gold}} <i class="fas fa-coins"></i></p>
+      <p class="navbar-item">{{communicationService.actor.container.food}} <i class="fas fa-utensils"></i></p>
+    </div>
+    <div class="navbar-end">
+      <a class="navbar-item"><i class="far fa-file-alt"></i></a>
+      <a class="navbar-item"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</nav>
